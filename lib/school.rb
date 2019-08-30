@@ -11,7 +11,7 @@ class School
     if !roster.has_value?(grade)
       roster[grade] = [student]
     else 
-      roster[grade].push(student)
+      roster[grade] << student
     end
   end
   
