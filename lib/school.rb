@@ -13,5 +13,9 @@ class School
     else 
       roster[grade].push(student)
     end
-  end 
+  end
+  
+  def grade
+    @roster[grade]
+  end
 end 
