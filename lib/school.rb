@@ -7,7 +7,7 @@ class School
     @roster = {}
   end
   
-  def add_student(student)
-    
+  def add_student(student, grade)
+    if !roster.has_value
   end 
 end 
