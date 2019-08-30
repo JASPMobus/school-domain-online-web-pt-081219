@@ -8,7 +8,7 @@ class School
   end
   
   def add_student(student, grade)
-    if !roster.has_value?([grade]) then
+    if !roster.has_value?(grade) then
       roster[grade] = []
     end
     
