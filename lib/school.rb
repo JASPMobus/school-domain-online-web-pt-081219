@@ -8,7 +8,7 @@ class School
   end
   
   def add_student(student, grade)
-    if !!roster.grade then
+    if !!roster[grade] then
       roster[grade] = []
     end
     
