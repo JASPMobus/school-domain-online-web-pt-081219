@@ -20,6 +20,8 @@ class School
   end
   
   def sort
-    
+    @roster.each do |grd, grd_rstr|
+      roster[grd] = grd_rstr.sort
+    end 
   end
 end 
