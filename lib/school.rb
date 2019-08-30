@@ -12,8 +12,7 @@ class School
       roster[grade] << student
     else 
       roster[grade] = [student]
-    
-    roster[grade] << student
+    end
   end
   
   def grade
